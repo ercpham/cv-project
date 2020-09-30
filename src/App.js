@@ -1,11 +1,14 @@
 import React from "react";
 import GenInfo from "./components/GenInfo";
+import EdInfo from "./components/EdInfo"
+import JobInfo from "./components/JobInfo"
 
 const App = (prop) => {
   return (
-    <div>
-      Hello World!
+    <div className = "fillScreen">
       <GenInfo />
+      <EdInfo />
+      <JobInfo />
     </div>
   );
 };
